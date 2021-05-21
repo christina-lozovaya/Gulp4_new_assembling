@@ -1,0 +1,34 @@
+body {
+  font-family: $primaryFontFamily;
+  color: $primaryTextColor;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  background: #fff;
+}
+
+.container {
+  max-width: 1696px;
+  padding: 0 5%;
+  margin: 0 auto;
+
+  &--lg {
+	max-width: 1748px;
+  }
+}
+
+//.h1 {
+//  font: 700 275px/284px $primaryFontFamily;
+//}
+
+.h2 {
+  font: 800 20px/36px $primaryFontFamily;
+  margin-bottom: 10px;
+}
+
+.h3 {
+  font: 600 56px/1.5 $primaryFontFamily;
+  margin-bottom: 36px;
+}
